@@ -39,18 +39,8 @@ The universe in which the Streaming STT API is used for transcribing the speech.
 | generic     | `SttDomain.GENERIC` |
 | bfsi        | `SttDomain.BFSI`    |
 | ecomm       | `SttDomain.ECOMM`   |
-## Integrate the SDK in Your Application
 
-1.Add the Framework in the and embed it in the project
-> Note: For Simulators use Simulator RevSttStreamingSDK Framework for iOS Simulators
-        For Physical iOS device use RevSttStreamingSDK Framework for iOS Arm64 framework
-
-> Note: Verify that the correct library imported in the swift file i.e ReverieSttStreaming
-
-> If Using startscream in the project use version 4.0.8 or later of starscream to avoid conflicts
-
-> Provide lang and domain either in constructor or in the startRecognistions function  
-### iOS UiKit Integration
+### iOS Swift Integration
 
  1. Prepare the constructor:
 
