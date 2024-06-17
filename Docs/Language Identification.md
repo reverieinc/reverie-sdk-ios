@@ -17,11 +17,6 @@ This Api is used to detect or identify the language of the source content
 | Tamil                      |                           |
 | Telugu                     |                           |
 
-### Integrate the SDK in your application
-
-1.Add the Framework in the and embed it in the project
-> Note: For Simulators use Simulator RevSttStreamingSDK Framework for iOS Simulators
-        For Physical iOS device use RevSttStreamingSDK Framework for iOS Arm64 framework
 
 
 ### Mandatory Parameters
