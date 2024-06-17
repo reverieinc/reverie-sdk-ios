@@ -17,16 +17,17 @@ With these prerequisites, you are ready to start exploring the powerful features
 
 ## Below are the list of Api Services supported by this SDK
 
-- ### [Translation](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/TRANSLATION.md)
+- ### [Translation](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Translation.md)
 
-- ### [Transliteration](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/TRANSLITERATION.md)
+- ### [Transliteration](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Transliteration.md)
 
-- ### [Text to Speech](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/TEXT_TO_SPEECH.md)
+- ### [Text to Speech](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Text%20To%20Speech.md)
 
-- ### [Batch Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/BATCH_STT.md)
+- ### [Batch Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Speech%20to%20Text%20%7C%20Batch.md)
 
-- ### [File Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/FILE_STT.md)
 
-- ### [Streaming Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/STREAMING_STT.md)
+- ### [File Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Speech%20to%20Text%7CFile.md)
 
-- ### [Language Identification](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/LANGUAGE_IDENTIFICATION.md)
+- ### [Streaming Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Speech%20To%20Text%20%7CStreaming.md)
+
+- ### [Language Identification](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Language%20Identification.md)
