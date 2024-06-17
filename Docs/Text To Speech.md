@@ -40,14 +40,7 @@ Reverie’s TTS builds a comprehensive speech application as it is empowered wit
 - Dedicated support for multiple Indic languages
 - Allows customization to create unique voice personas
 
-## Integrate the SDK in your application.
 
-Place the .framework module according to the architecture in your project folder and embed the SDK to your project 
-This SDK Requires  Internet Connection and Minimum iOS Deployment Version is iOS 13 
- Add the import statement for the SDK in your Swift Class  
-  ```sh
-     import RevApiSdk
-  ```
 ## SDK usage example:
 1. Prepare the constructor: 
      ```sh 

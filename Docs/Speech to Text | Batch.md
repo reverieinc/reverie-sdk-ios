@@ -17,7 +17,7 @@ The solution will decode moderate noisy audio data recorded in various environme
 - Content Filtering:
 Obscenity filter will detect inappropriate or unprofessional content in your audio data and filter out profane words in text output.
 
-###  Supporting Languages
+##  Supporting Languages
 
 The solution will understand regional accents, bi-lingual nature of Indians, and is dialect-agnostic. it will transcribe the audio from widely spoken Indian languages:
 .
@@ -32,7 +32,7 @@ The solution will understand regional accents, bi-lingual nature of Indians, and
 | Marathi   | mr   | Assamese | as   |
 | Malayalam | ml   | Odia     | or   |
 
-### Supporting Domain
+## Supporting Domain
 The universe in which the Streaming STT API is used for transcribing the speech. 
 
 | Domain Name | SDK Constants       |
@@ -42,19 +42,13 @@ The universe in which the Streaming STT API is used for transcribing the speech.
 
 To understand the `Domains` better please refer to [Supporting Domains](https://docs.reverieinc.com/speech-to-text-file-api#supporting-domains)
 
-## Integrate the SDK in Your Application
-
-1.Add the Framework in the and embed it in the project
-> Note: For Simulators use Simulator RevSttStreamingSDK Framework for iOS Simulators
-        For Physical iOS device use RevSttStreamingSDK Framework for iOS Arm64 framework
-
-> Note: Verify that the correct library imported in the swift file i.e ReverieSttStreaming
-
-> If Using startscream in the project use version 4.0.6 or later of starscream to avoid conflicts
 
 > Provide lang and domain either in constructor or in the startRecognistions function  
-### iOS UiKit Integration
 
+## SDK usage example:
+
+                                                                  
+### Swift based example implementation of the SDK:
  1. Prepare the constructor:
 
      ```sh

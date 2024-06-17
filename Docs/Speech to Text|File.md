@@ -42,18 +42,12 @@ The universe in which the Streaming STT API is used for transcribing the speech.
 
 To understand the `Domains` better please refer to [Supporting Domains](https://docs.reverieinc.com/speech-to-text-file-api#supporting-domains)
 
-## Integrate the SDK in Your Application
 
-1.Add the Framework in the and embed it in the project
-> Note: For Simulators use Simulator RevSttStreamingSDK Framework for iOS Simulators
-        For Physical iOS device use RevSttStreamingSDK Framework for iOS Arm64 framework
 
-> Note: Verify that the correct library imported in the swift file i.e ReverieSttStreaming
+## SDK usage example:
 
-> If Using startscream in the project use version 4.0.6 or later of starscream to avoid conflicts
-
-> Provide lang and domain either in constructor or in the startRecognistions function  
-### iOS UiKit Integration
+                                                                  
+### Swift based example implementation of the SDK:
 
  1. Prepare the constructor:
 

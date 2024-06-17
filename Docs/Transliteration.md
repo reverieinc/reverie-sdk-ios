@@ -53,13 +53,6 @@ Transliteration API supports 22 Indic languages, including Rare languages. It co
 
 
 
-### Integrate the SDK in your application.
-Place the .framework module according to the architecture in your project folder and embed the SDK to your project 
-This SDK Requires  Internet Connection and Minimum iOS Deployment Version is iOS 13 
- Add the import statement for the SDK in your Swift Class  
-  ```sh
-     import RevApiSdk
-  ```
 
 
 

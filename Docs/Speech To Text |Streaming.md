@@ -40,8 +40,11 @@ The universe in which the Streaming STT API is used for transcribing the speech.
 | bfsi        | `SttDomain.BFSI`    |
 | ecomm       | `SttDomain.ECOMM`   |
 
-### iOS Swift Integration
 
+## SDK usage example:
+
+                                                                  
+### Swift based example implementation of the SDK:
  1. Prepare the constructor:
 
      ```sh
