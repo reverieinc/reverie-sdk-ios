@@ -19,6 +19,8 @@ With these prerequisites, you are ready to start exploring the powerful features
 
 
 1.Add the Swift Package using SPM and if using version lower than XCode 15 add Apple's  AVFAudio.framework without embedding
+
+
 Note: Privacy Manifest has been added to the SDK as per Apple's Compliance.
 
 ## Below are the list of Api Services supported by this SDK
