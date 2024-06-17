@@ -15,6 +15,12 @@ Before you begin, ensure that you have the following prerequisites in place:
 
 With these prerequisites, you are ready to start exploring the powerful features of the Rev-Language-API, iOS SDK. The following sections will guide you through each component in detail, providing everything you need to integrate and use these language processing capabilities in your applications.
 
+## Integrate the SDK in Your Application
+
+
+1.Add the Swift Package using SPM and if using version lower than XCode 15 add Apple's  AVFAudio.framework without embedding
+Note: Privacy Manifest has been added to the SDK as per Apple's Compliance.
+
 ## Below are the list of Api Services supported by this SDK
 
 - ### [Translation](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Translation.md)
