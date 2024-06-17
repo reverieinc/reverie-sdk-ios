@@ -1,8 +1,8 @@
 # Rev Language Api SDK iOS
 ## Overview
-Welcome to the Rev Language API iOS SDK documentation. This SDK provides a comprehensive suite of tools for integrating advanced language processing capabilities into your Android applications. Whether you need transliteration, translation, text-to-speech (TTS), or speech-to-text (STT) functionalities, this SDK has you covered. Additionally, the SDK offers robust language identification features to detect the language of a given text input.
+Welcome to the Rev Language API iOS SDK documentation. This SDK provides a comprehensive suite of tools for integrating advanced language processing capabilities into your iOS applications. Whether you need transliteration, translation, text-to-speech (TTS), or speech-to-text (STT) functionalities, this SDK has you covered. Additionally, the SDK offers robust language identification features to detect the language of a given text input.
 ## Purpose
-The purpose of this documentation is to guide developers through the process of installing, configuring, and utilizing the various components of the Android SDK. It provides detailed instructions, code examples, and best practices to help you seamlessly integrate these features into your applications.
+The purpose of this documentation is to guide developers through the process of installing, configuring, and utilizing the various components of the iOS SDK. It provides detailed instructions, code examples, and best practices to help you seamlessly integrate these features into your applications.
 ## Audience
 This documentation is intended for developers with a basic understanding of iOS development and familiarity with concepts such as APIs and SDKs. Whether you are building a new application from scratch or adding language processing features to an existing one, this guide will provide the necessary information to leverage the full potential of the SDK.
 ## Prerequisites
