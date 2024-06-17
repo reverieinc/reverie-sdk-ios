@@ -1,4 +1,4 @@
-# Rev Language Api SDK iOS
+# Reverie Language API SDK for iOS
 ## Overview
 Welcome to the Rev Language API iOS SDK documentation. This SDK provides a comprehensive suite of tools for integrating advanced language processing capabilities into your iOS applications. Whether you need transliteration, translation, text-to-speech (TTS), or speech-to-text (STT) functionalities, this SDK has you covered. Additionally, the SDK offers robust language identification features to detect the language of a given text input.
 ## Purpose
@@ -8,7 +8,7 @@ This documentation is intended for developers with a basic understanding of iOS 
 ## Prerequisites
 Before you begin, ensure that you have the following prerequisites in place:
 
-- iOS Development Environment: XCode 14.3 and above with swift 5.7 and above
+- iOS Development Environment: XCode 14.3 and above with Swift 5.7 and above
 - Programming Knowledge: Basic knowledge of Swift
 - API Keys: Access to valid API key and APP-ID from Reverie for the language processing services you intend to use, if applicable.
 - Internet Connection: All of the features require an active internet connection to function properly.
@@ -18,14 +18,26 @@ With these prerequisites, you are ready to start exploring the powerful features
 ## Integrate the SDK in Your Application
 
 
-1.Add the Swift Package using SPM and if using version lower than XCode 15 add Apple's  AVFAudio.framework without embedding
+1. Add the Swift Package using SPM:
 
+    - Open your Xcode project.
+    - Navigate to File > Swift Packages > Add Package Dependency.
+    - Enter the repository URL and follow the prompts to add the package.
+2. If using a version lower than Xcode 15:
 
-Note: Privacy Manifest has been added to the SDK as per Apple's Compliance.
+    - Add Apple's AVFAudio.framework:
+      - Open your Xcode project.
+      - Navigate to your project settings.
+      - Under the General tab, find the Frameworks, Libraries, and Embedded Content section.
+      - Click the + button and add AVFAudio.framework.
+      - Ensure you do not embed the framework.
 
-## Below are the list of Api Services supported by this SDK
+> Note: Privacy Manifest has been added to the SDK as per Apple's compliance.
 
-- ### [Translation](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Translation.md)
+## Supported Services
+Below is the list of API Services supported by this SDK:
+
+- ### [Translation](Docs/Translation.md)
 
 - ### [Transliteration](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Transliteration.md)
 
