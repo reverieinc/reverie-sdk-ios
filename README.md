@@ -45,9 +45,14 @@ Below is the list of API Services supported by this SDK:
 
 - ### [Batch Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Speech%20to%20Text%20%7C%20Batch.md)
 
-
 - ### [File Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Speech%20to%20Text%7CFile.md)
 
 - ### [Streaming Speech to Text](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Speech%20To%20Text%20%7CStreaming.md)
 
 - ### [Language Identification](https://github.com/reverieinc/reverie-language-api-sdk-ios/blob/main/Docs/Language%20Identification.md)
+
+License
+-------
+All Rights Reserved. Copyright 2024. Reverie Language Technologies Limited.(https://reverieinc.com/)
+
+Reverie Voice Input SDK can be used according to the [Apache License, Version 2.0](LICENSE).
