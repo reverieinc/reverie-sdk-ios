@@ -49,7 +49,7 @@ The universe in which the Streaming STT API is used for transcribing the speech.
 
      ```sh
     //Preparing the constructor with valid API key and APP-ID
-        let SttStreaming=StreamingSTT(apikey: String, appId: String)
+        let SttStreaming=StreamingSTT( apikey: String, appId: String, lang:String,domain: String,logging:String)
     ```
     ```sh
     //Preparing the Constructor with  API-key , APP-ID , language,domain and logging
