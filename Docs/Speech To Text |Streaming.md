@@ -92,7 +92,12 @@ The universe in which the Streaming STT API is used for transcribing the speech.
 
 3. Start Voice Input
     ```sh
-    SttStreaming.startStreaming(domain: SpeechToTextDomain.GENERIC, lang: sourceLanguage, logging: Logging.TRUE)    ```
+    SttStreaming.startRecognition(voiceInputDelegates:StreamingSTTDelegates,isUIRequired:Bool,domain:String,lang:String)  
+   ```
+
+   ```sh
+    SttStreaming.startRecognition(voiceInputDelegates:StreamingSTTDelegates,isUIRequired:Bool)  
+   ```
    
 4. Stop the Voice Streaming for final Result
     ```sh
