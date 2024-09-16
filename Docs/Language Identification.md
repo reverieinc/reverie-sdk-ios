@@ -48,7 +48,7 @@ This Api is used to detect or identify the language of the source content
 2. Implementing the listeners for handling the response:
     ```
     struct LanguageIdentificationUI: View,LanguageIdentificationDelegate {
-    func onResult(data: RevApiSDK.LanguageIndetificationData) {
+    func onResult(data: ReverieLanguageAPISDK.LanguageIndetificationData) {
         output = data.lang
         
     }
