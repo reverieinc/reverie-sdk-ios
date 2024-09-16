@@ -58,7 +58,7 @@ The universe in which the Streaming STT API is used for transcribing the speech.
  2. Add Listeners to ViewControllerClass
     
     ```sh
-        struct StreamingUI: View , StreamingDelegate  {
+        struct StreamingUI: View ,StreamingSTTDelegates {
     
         func onConnectionSucess(isTrue: Bool) {
         
