@@ -61,14 +61,14 @@ To understand the `Domains` better please refer to [Supporting Domains](https://
     ```sh
     struct BatchSttUi: View,BatchSttDelegates {
     @Environment(\.presentationMode) var presentationMode
-    func onResultTranscript(data: RevApiSDK.BatchTranscriptResult) {
+    func onResultTranscript(data: ReverieLanguageAPISDK.BatchTranscriptResult) {
         inProcess=false
         print("sucess")
         print(data.message)
         output=data.result.first?.transcript ?? ""
     }
     
-    func onResultUpload(data: RevApiSDK.BatchUploadData) {
+    func onResultUpload(data: ReverieLanguageAPISDK.BatchUploadData) {
         let job_id = data.job_id
         //s.checkStatus(jobId: job_id)
         print(data.code)
@@ -81,7 +81,7 @@ To understand the `Domains` better please refer to [Supporting Domains](https://
         inProcess=false
     }
     
-    func onResultStatus(data: RevApiSDK.BatchStatusData) {
+    func onResultStatus(data: ReverieLanguageAPISDK.BatchStatusData) {
         print("From Parent Struct \(data.code)")
         if(data.code=="000")
         {  // timer.invalidate()
