@@ -1,0 +1,24 @@
+{
+  "originHash" : "e7c6d5219a82ebc02e6498aea29f95b932da0ea2d58767b8a0b571ef0912f68c",
+  "pins" : [
+    {
+      "identity" : "reverie-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/reverieinc/reverie-sdk-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dfa17532d2714045ec59e11a73189a2767c22d4c"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream.git",
+      "state" : {
+        "revision" : "c6bfd1af48efcc9a9ad203665db12375ba6b145a",
+        "version" : "4.0.8"
+      }
+    }
+  ],
+  "version" : 3
+}
