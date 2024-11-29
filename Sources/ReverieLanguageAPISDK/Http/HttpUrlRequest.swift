@@ -30,9 +30,9 @@ class HttpUrlRequest{
     {
         if let body = request.httpBody,
         let bodyString = String(data: body, encoding: .utf8) {
-        print("HTTP Body: \(bodyString)")
+            Logger.printLog(string: "HTTP Body: \(bodyString)")
     } else {
-        print("No HTTP body or unable to decode body data.")
+      
     }
         print(request.allHTTPHeaderFields as Any)
         URLSession.shared.dataTask(with: request) { data, response, error in
