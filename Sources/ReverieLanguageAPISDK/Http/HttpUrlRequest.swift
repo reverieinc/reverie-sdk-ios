@@ -34,7 +34,7 @@ class HttpUrlRequest{
     } else {
       
     }
-        print(request.allHTTPHeaderFields as Any)
+        Logger.printLog(string:request.allHTTPHeaderFields as Any)
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {
                 self.urlRequestDelegate.onError(error: error?.localizedDescription ?? "", tag: tag,errorTag: ErrorTag.SDK_ERROR)
