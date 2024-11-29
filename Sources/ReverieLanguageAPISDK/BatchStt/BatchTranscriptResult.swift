@@ -26,7 +26,7 @@ public struct BatchTranscriptResult: Codable {
 public struct TranscriptChannel: Codable {
     public let channel_number: Int
     public let transcript: String
-    public let words: [Word] // Nested array of words
+    public let words: [[Word]] // Nested array of words
 
     private enum CodingKeys: String, CodingKey {
         case channel_number, transcript, words
